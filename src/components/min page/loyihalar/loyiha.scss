@@ -1,0 +1,120 @@
+
+.loyiha-wrap {
+  width: 100%;
+}
+.lo-h2 {
+  text-align: center;
+  font-family: nativ;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 540;
+  line-height: 55px;
+  color: var(--color-text);
+}
+
+.loyiha-menyu {
+  width: 664px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 90px;
+  border: 1px solid var(--bordeer);
+  background: var(--loyiha);
+  backdrop-filter: blur(2px);
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  p {
+    cursor: pointer;
+    position: 0;
+    z-index: 1;
+    color: var(--color-text);
+  }
+}
+.button-loyiha {
+  width: 166px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: linear-gradient(
+    94deg,
+    #1e11ad 12.37%,
+    rgba(105, 17, 173, 0.95) 85.28%
+  );
+  position: absolute;
+  left: 0;
+  transition: .8s;
+}
+
+.loyiha-itme {
+  width: 1450px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.loyiha-cart {
+  width: 433px;
+  height: 362px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.cart-hover {
+  width: 403px;
+  height: 332px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.799);
+  opacity: 0;
+  transition: 0.8s;
+  position: relative;
+  z-index: 1;
+  h2 {
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: nativ;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+  }
+}
+.loyiha-cart:hover .cart-hover {
+  opacity: 1;
+}
+.top-cart {
+  width: 121px;
+  height: 37px;
+  border-radius: 5px;
+  background: #fff;
+  position: absolute;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 15px;
+  top: 15px;
+}
+.icon {
+  position: absolute;
+  right: 0;
+}
+
+.bar{
+    margin: 0 auto;
+    display: block;
+  //  margin-top: 150px;
+}
