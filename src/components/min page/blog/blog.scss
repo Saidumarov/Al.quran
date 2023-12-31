@@ -2,8 +2,7 @@
   --color-bga: #111317;
   --opasty: 0.5;
   --color-p: rgba(255, 255, 255, 0.8);
-  --color-text: #fff;
-  --sledr: rgba(14, 16, 20, 0.9);
+  // --color-text: #fff;
 }
 
 .blog-wrap {
@@ -81,8 +80,8 @@
   background: var(--sledr);
   backdrop-filter: blur(1px);
   h2 {
-    color: var(--color-text);
-    font-family: nativah2;
+    color: var(--h2-color);
+    font-family: sans-serif;
     font-size: 20px;
     text-align: left;
     line-height: 25px;
@@ -92,8 +91,8 @@
     padding-top: 15px;
   }
   p {
-    color: rgba(255, 255, 255, 0.7);
-    font-family: nativah2;
+    color: var(--blog-p);
+    font-family: sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -127,6 +126,7 @@
 
   p {
     color: var(--color-text);
+    font-family: sans-serif;
   }
 }
 .itch {
@@ -142,7 +142,7 @@
   p {
     padding-left: 2px;
     color: var(--color-text);
-    font-family: nativah2;
+    // font-family: nativah2;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
